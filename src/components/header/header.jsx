@@ -18,11 +18,6 @@ const Container = styled.div`
   margin: 0 auto;
 `;
 
-const Title = styled.h1`
-  margin: 0;
-  font-size: 2rem;
-`;
-
 const Header = () => {
   return (
     <HeaderWrapper>
