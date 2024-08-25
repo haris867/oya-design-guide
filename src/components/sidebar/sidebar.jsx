@@ -7,6 +7,19 @@ const SidebarWrapper = styled.nav`
   height: 100vh;
   padding: 2.5rem;
   position: fixed;
+
+  @media (max-width: 768px) {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+    min-width: 100%;
+  }
 `;
 
 const StyledNavLink = styled(NavLink)`
@@ -24,6 +37,11 @@ const StyledNavLink = styled(NavLink)`
   &:hover {
     background-color: ${({ theme }) => theme.colors.accent1.hex};
   }
+
+  @media (max-width: 768px) {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+  }
 `;
 
 const Sidebar = () => {
@@ -32,9 +50,10 @@ const Sidebar = () => {
       <StyledNavLink to="/" exact>
         Velkommen
       </StyledNavLink>
+      <StyledNavLink to="/merkevare">Merkevare</StyledNavLink>
       <StyledNavLink to="/logo">Logo</StyledNavLink>
-      <StyledNavLink to="/colors">Farger</StyledNavLink>
-      <StyledNavLink to="/typography">Typografi</StyledNavLink>
+      <StyledNavLink to="/farger">Farger</StyledNavLink>
+      <StyledNavLink to="/typografi">Typografi</StyledNavLink>
     </SidebarWrapper>
   );
 };

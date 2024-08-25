@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const HeaderWrapper = styled.header`
@@ -22,7 +23,9 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <Container>
-        <LogoContainerImage src="./images/oya-logo-light.png"></LogoContainerImage>
+        <NavLink to="/">
+          <LogoContainerImage src="./images/oya-logo-light.png"></LogoContainerImage>
+        </NavLink>
       </Container>
     </HeaderWrapper>
   );

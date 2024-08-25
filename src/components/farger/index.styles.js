@@ -96,4 +96,10 @@ export const ColorRowBox = styled.div`
   background-color: ${({ color }) => color};
   border-radius: 20px;
   opacity: ${({ hidden }) => (hidden ? 0 : 1)};
+
+  @media (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+  }
 `;

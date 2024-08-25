@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "../../theme/theme.jsx";
-import * as S from "./index.styles";
+import * as S from "./index.styles.js";
 import styled from "styled-components";
 
 const LogoColorContainer = styled.div`
@@ -8,6 +8,10 @@ const LogoColorContainer = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 35px;
   margin-bottom: 3rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 const LogoColorBox = styled.div`
@@ -21,6 +25,12 @@ const LogoColorBox = styled.div`
   align-items: center;
   border-radius: 50px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+  }
 `;
 const LogoColor = styled.svg`
   max-width: 100px;
@@ -30,6 +40,11 @@ const LogoColor = styled.svg`
   }
   .path-stroke {
     stroke: ${({ strokeColor }) => strokeColor || "white"};
+  }
+
+  @media (max-width: 768px) {
+    max-width: 60px;
+    max-height: 40px;
   }
 `;
 
@@ -76,9 +91,8 @@ export default function Colors() {
       <S.Section>
         <S.Subtitle>Fargekombinasjoner</S.Subtitle>
         <S.Bodytext>
-          Denne oversikten viser hvilke farger som kan kombineres for å skape et
-          balansert og helhetlig uttrykk. Sørg for å bruke fargene riktig for å
-          følge forskrift om universell utforming.
+          Denne oversikten viser hvilke farger som kan kombineres. Sørg for å
+          bruke fargene riktig for å følge forskrift om universell utforming.
         </S.Bodytext>
         {colors.map((bgKey) => (
           <S.ColorRowWrapper key={bgKey} bgColor={theme.colors[bgKey].hex}>
