@@ -6,6 +6,10 @@ const HeaderWrapper = styled.header`
   background-color: ${({ theme }) => theme.colors.primary.hex};
   color: white;
   padding: 1rem;
+
+  @media (min-width: 768px) {
+    padding-left: 2.5rem;
+  }
 `;
 
 const LogoContainerImage = styled.img`
@@ -15,8 +19,8 @@ const LogoContainerImage = styled.img`
 `;
 
 const Container = styled.div`
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 100vw;
 `;
 
 const Header = () => {
