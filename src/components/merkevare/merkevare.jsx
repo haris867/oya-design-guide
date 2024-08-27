@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 export const Title = styled.h1`
   font-size: 30px;
@@ -25,6 +26,9 @@ export const SubSubtitle = styled.h3`
 export default function Merkevare() {
   return (
     <div>
+      <Helmet>
+        <title>Oya | Merkevare</title>
+      </Helmet>
       <Title>Vår merkevare</Title>
       <Subtitle>Merkevareposisjonering</Subtitle>
       <Bodytext>

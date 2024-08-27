@@ -41,6 +41,8 @@ export const ColorBox = styled.div`
   width: 70px;
   height: 70px;
   background-color: ${({ color }) => color};
+  border: ${({ color }) =>
+    color === "#F8F8F8" ? "1px solid #1A2345" : "none"};
   border-radius: 35px;
   padding: 10px;
 `;
@@ -70,6 +72,9 @@ export const ColorRowWrapper = styled.div`
   align-items: center;
   background-color: ${({ bgColor }) => bgColor};
   padding: 20px;
+  border: ${({ bgColor }) =>
+    bgColor === "#F8F8F8" ? "1px solid #1A2345" : "none"};
+
   border-radius: 25px;
   margin-bottom: 45px;
 `;
@@ -83,11 +88,12 @@ export const ColorRowBoxWrapper = styled.div`
 
 export const hiddenColors = {
   primary: ["neutral1"],
-  secondary: ["neutral2", "accent1", "accent2"],
+  secondary: ["neutral2", "neutral3", "accent1", "accent2"],
   neutral1: ["primary"],
-  neutral2: ["secondary", "accent1", "accent2"],
-  accent1: ["secondary", "neutral2", "accent2"],
-  accent2: ["secondary", "neutral2", "accent1"],
+  neutral2: ["secondary", "neutral3", "accent1", "accent2"],
+  neutral3: ["secondary", "neutral2", "accent1", "accent2"],
+  accent1: ["secondary", "neutral2", "neutral3", "accent2"],
+  accent2: ["secondary", "neutral2", "neutral3", "accent1"],
 };
 
 export const ColorRowBox = styled.div`

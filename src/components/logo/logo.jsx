@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 export const Title = styled.h1`
   font-size: 30px;
@@ -43,6 +44,9 @@ const LogoIconImage = styled.img`
 export default function Logo() {
   return (
     <div>
+      <Helmet>
+        <title>Oya | Logo</title>
+      </Helmet>
       <Title>Vår logo</Title>
       <Subtitle>Litt om logoen</Subtitle>
       <Bodytext>

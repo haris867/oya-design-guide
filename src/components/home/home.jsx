@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 const Title = styled.h1`
   font-size: 30px;
@@ -16,6 +17,9 @@ export const Bodytext = styled.p`
 export default function Home() {
   return (
     <div>
+      <Helmet>
+        <title>Oya | Designguide</title>
+      </Helmet>
       <Title>Velkommen til Oya sin designguide</Title>
       <Bodytext>
         Her finner du retningslinjer for hvordan Oya sin visuelle profil skal se

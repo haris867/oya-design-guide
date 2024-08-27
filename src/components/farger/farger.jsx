@@ -2,6 +2,7 @@ import React from "react";
 import theme from "../../theme/theme.jsx";
 import * as S from "./index.styles.js";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 const LogoColorContainer = styled.div`
   display: grid;
@@ -17,8 +18,7 @@ const LogoColorContainer = styled.div`
 const LogoColorBox = styled.div`
   height: 150px;
   width: 150px;
-  background-color: ${({ bgColor }) =>
-    bgColor}; // Ensure background color is applied
+  background-color: ${({ bgColor }) => bgColor};
 
   display: flex;
   justify-content: center;
@@ -67,6 +67,9 @@ export default function Colors() {
 
   return (
     <div>
+      <Helmet>
+        <title>Oya | Farger</title>
+      </Helmet>
       <S.Title>Farger</S.Title>
       <S.Section>
         <S.Subtitle>Palett</S.Subtitle>
