@@ -20,7 +20,7 @@ export default function Home() {
       <Helmet>
         <title>Oya | Designguide</title>
       </Helmet>
-      <Title>Velkommen til Oya sin designguide</Title>
+      <Title>Velkommen til Oyatel sin designguide</Title>
       <Bodytext>
         Her finner du retningslinjer for hvordan Oya sin visuelle profil skal se
         ut. Dette inkluderer farger, typografi, logo og annen grafisk

@@ -13,8 +13,12 @@ const HeaderWrapper = styled.header`
 `;
 
 const LogoContainerImage = styled.img`
-  max-width: calc(50px + 3vw);
+  max-width: calc(120px + 3vw);
   max-height: 100px;
+  margin: 0px 10px;
+`;
+const LogoContainerImage2 = styled.img`
+  max-height: 50px;
   margin: 0px 10px;
 `;
 
@@ -28,7 +32,7 @@ const Header = () => {
     <HeaderWrapper>
       <Container>
         <NavLink to="/">
-          <LogoContainerImage src="./images/oya-logo-light.png"></LogoContainerImage>
+          <LogoContainerImage src="./images/oyatel-logo-white.png"></LogoContainerImage>
         </NavLink>
       </Container>
     </HeaderWrapper>

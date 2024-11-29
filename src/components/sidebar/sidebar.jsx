@@ -53,7 +53,7 @@ const Sidebar = () => {
       <StyledNavLink to="/merkevare">Merkevare</StyledNavLink>
       <StyledNavLink to="/logo">Logo</StyledNavLink>
       <StyledNavLink to="/farger">Farger</StyledNavLink>
-      <StyledNavLink to="/typografi">Typografi</StyledNavLink>
+      <StyledNavLink to="/designprofil">Designprofil</StyledNavLink>
     </SidebarWrapper>
   );
 };

@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <Container>
-        <LogoContainerImage src="./images/oya-logo-icon-light.png"></LogoContainerImage>
+        <LogoContainerImage src="./images/oya-icon-white.png"></LogoContainerImage>
       </Container>
     </FooterWrapper>
   );

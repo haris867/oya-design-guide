@@ -9,7 +9,7 @@ import Home from "./components/home/home.jsx";
 import Merkevare from "./components/merkevare/merkevare.jsx";
 import Logo from "./components/logo/logo.jsx";
 import Colors from "./components/farger/farger.jsx";
-import Typography from "./components/typografi/typografi.jsx";
+import Designprofil from "./components/designprofil/designprofil.jsx";
 
 const AppWrapper = styled.div`
   display: flex;
@@ -52,7 +52,7 @@ const App = () => {
               <Route path="/merkevare" element={<Merkevare />} />
               <Route path="/logo" element={<Logo />} />
               <Route path="/farger" element={<Colors />} />
-              <Route path="/typografi" element={<Typography />} />
+              <Route path="/designprofil" element={<Designprofil />} />
             </Routes>
           </ContentWrapper>
         </PageWrapper>

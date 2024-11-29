@@ -32,11 +32,11 @@ export default function Merkevare() {
       <Title>Vår merkevare</Title>
       <Subtitle>Merkevareposisjonering</Subtitle>
       <Bodytext>
-        Oya leverer rimelige og brukervennlige telekommunikasjonsløsninger for
-        små og mellomstore bedrifter. Vi forplikter oss til å levere enestående
-        kundesupport og oppfølging, helt uten skjulte kostnader, slik at våre
-        kunder alltid har teknologien og forutsigbarheten de trenger for å
-        vokse.
+        Oyatel leverer rimelige og brukervennlige telekommunikasjonsløsninger
+        for små og mellomstore bedrifter. Vi forplikter oss til å levere
+        enestående kundesupport og oppfølging, helt uten skjulte kostnader, slik
+        at våre kunder alltid har teknologien og forutsigbarheten de trenger for
+        å vokse.
       </Bodytext>
 
       <Subtitle>Visjon</Subtitle>
@@ -47,16 +47,16 @@ export default function Merkevare() {
       </Bodytext>
       <Subtitle>Misjon</Subtitle>
       <Bodytext>
-        Oya skal hjelpe norske bedrifter med å holde seg tilkoblet gjennom enkle
-        og ukompliserte telekommunikasjonsløsninger. Vi tilbyr en brukervennlig
-        løsning for innkommende og utgående kommunikasjon, i tillegg til
-        mobilabonnement for våre kunders ansatte. Vårt mål er å gjøre
-        telekommunikasjon enkelt og forståelig for små og mellomstore bedrifter,
-        med eksepsjonell oppfølging og kundeservice.
+        Oyatel skal hjelpe norske bedrifter med å holde seg tilkoblet gjennom
+        enkle og ukompliserte telekommunikasjonsløsninger. Vi tilbyr en
+        brukervennlig løsning for innkommende og utgående kommunikasjon, i
+        tillegg til mobilabonnement for våre kunders ansatte. Vårt mål er å
+        gjøre telekommunikasjon enkelt og forståelig for små og mellomstore
+        bedrifter, med eksepsjonell oppfølging og kundeservice.
       </Bodytext>
       <Subtitle>Merkevareløfte</Subtitle>
       <Bodytext>
-        Hos Oya lover vi å levere brukervennlige, pålitelige og
+        Hos Oyatel lover vi å levere brukervennlige, pålitelige og
         kostnadseffektive telekommunikasjonsløsninger til små og mellomstore
         bedrifter. Vi streber etter å tilby enestående oppfølging og
         eksepsjonell kundeservice, slik at våre kunder alltid føler seg verdsatt
@@ -80,7 +80,7 @@ export default function Merkevare() {
       </Bodytext>
       <SubSubtitle>Transparens</SubSubtitle>
       <Bodytext>
-        Oya har en transparent prismodell uten skjulte kostnader og gebyrer,
+        Oyatel har en transparent prismodell uten skjulte kostnader og gebyrer,
         slik at kundene alltid vet hva de betaler for og hva de kan forvente.
       </Bodytext>
       <SubSubtitle>Enkelhet</SubSubtitle>

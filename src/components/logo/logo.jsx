@@ -61,13 +61,13 @@ export default function Logo() {
         navnet.
       </Bodytext>
       <ImageContainer>
-        <LogoImage src="./images/oya-logo.png" />
-        <LogoIconImage src="./images/oya-logo-icon.png" />
+        <LogoImage src="./images/oyatel-logo.png" />
+        <LogoIconImage src="./images/oya-icon.png" />
       </ImageContainer>
-      <Subtitle>Fonttype</Subtitle>
+      {/* <Subtitle>Fonttype</Subtitle>
       <Bodytext>Kommer snart 🫶🏽</Bodytext>
       <Subtitle>Bølger</Subtitle>
-      <Bodytext>Kommer snart 🫶🏽</Bodytext>
+      <Bodytext>Kommer snart 🫶🏽</Bodytext> */}
     </div>
   );
 }
