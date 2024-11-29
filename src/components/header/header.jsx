@@ -17,10 +17,6 @@ const LogoContainerImage = styled.img`
   max-height: 100px;
   margin: 0px 10px;
 `;
-const LogoContainerImage2 = styled.img`
-  max-height: 50px;
-  margin: 0px 10px;
-`;
 
 const Container = styled.div`
   margin: 0 auto;

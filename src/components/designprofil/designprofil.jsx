@@ -2,11 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import theme from "../../theme/theme.jsx";
 import * as S from "./index.styles.js";
-import styled from "styled-components";
 
 export default function Designprofil() {
-  const colors = Object.keys(theme.colors);
-
   return (
     <div>
       <Helmet>
@@ -18,10 +15,6 @@ export default function Designprofil() {
         <S.SubSubtitle>Primærlogo</S.SubSubtitle>
         <S.ImageContainer>
           <S.LogoImage src="./images/logo-oyatel.png" alt="Oya logo" />
-          {/* <S.LogoIconImage
-          src="./images/logo-icon-oyatel.png"
-          alt="Oya icon logo"
-        /> */}
           <S.LightImageContainer>
             <S.LogoImage src="./images/logo-white-oyatel.png" alt="Oya logo" />
           </S.LightImageContainer>
