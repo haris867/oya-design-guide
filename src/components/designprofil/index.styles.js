@@ -13,6 +13,7 @@ export const Subtitle = styled.h2`
 export const SubSubtitle = styled.h3`
   font-size: 20px;
   font-weight: 500;
+  text-decoration: underline;
 `;
 
 export const Bodytext = styled.p`
