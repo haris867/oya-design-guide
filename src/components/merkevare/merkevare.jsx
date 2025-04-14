@@ -27,7 +27,7 @@ export default function Merkevare() {
   return (
     <div>
       <Helmet>
-        <title>Oya | Merkevare</title>
+        <title>Oyatel | Merkevare</title>
       </Helmet>
       <Title>Vår merkevare</Title>
       <Subtitle>Merkevareposisjonering</Subtitle>
