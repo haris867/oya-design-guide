@@ -7,28 +7,31 @@ export default function Designprofil() {
   return (
     <div>
       <Helmet>
-        <title>Oya | Handover</title>
+        <title>Oyatel | Handover</title>
       </Helmet>
       <S.Title>Vår designprofil</S.Title>
       <S.Section>
         <S.Subtitle>Logo</S.Subtitle>
         <S.SubSubtitle>Primærlogo</S.SubSubtitle>
         <S.ImageContainer>
-          <S.LogoImage src="./images/logo-oyatel.png" alt="Oya logo" />
+          <S.LogoImage src="./images/logo-oyatel.png" alt="Oyatel logo" />
           <S.LightImageContainer>
-            <S.LogoImage src="./images/logo-white-oyatel.png" alt="Oya logo" />
+            <S.LogoImage
+              src="./images/logo-white-oyatel.png"
+              alt="Oyatel logo"
+            />
           </S.LightImageContainer>
         </S.ImageContainer>
         <S.SubSubtitle>Ikon</S.SubSubtitle>
         <S.ImageContainer>
           <S.LogoIconImage
             src="./images/logo-icon-oyatel.png"
-            alt="Oya icon logo"
+            alt="Oyatel icon logo"
           />
           <S.LightImageContainer>
             <S.LogoIconImage
               src="./images/logo-white-icon-oyatel.png"
-              alt="Oya icon logo"
+              alt="Oyatel icon logo"
             />
           </S.LightImageContainer>
         </S.ImageContainer>

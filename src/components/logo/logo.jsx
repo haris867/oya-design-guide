@@ -45,7 +45,7 @@ export default function Logo() {
   return (
     <div>
       <Helmet>
-        <title>Oya | Logo</title>
+        <title>Oyatel | Logo</title>
       </Helmet>
       <Title>Vår logo</Title>
       <Subtitle>Litt om logoen</Subtitle>

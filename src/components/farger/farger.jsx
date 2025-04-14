@@ -68,7 +68,7 @@ export default function Colors() {
   return (
     <div>
       <Helmet>
-        <title>Oya | Farger</title>
+        <title>Oyatel | Farger</title>
       </Helmet>
       <S.Title>Farger</S.Title>
       <S.Section>
